@@ -19,13 +19,14 @@ var speed = 100
 
 """
 
-This functon and it's
+This functon below and it's
 processes are used to check the user's
 input and make the player's character
 react to them as it needs, according to
 already defined physics and speed variables.
 
 """
+
 func _physics_process(_delta):
 	if Input.is_action_just_pressed("ui_left"):
 		Timer.start
