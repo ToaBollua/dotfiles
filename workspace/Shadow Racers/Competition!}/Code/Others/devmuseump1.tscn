@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://djn8jvkfth6th"]
+
+[ext_resource type="PackedScene" uid="uid://dqu87i35vme3s" path="res://Competition!}/Code/Others/Anon.tscn" id="1_s34pr"]
+[ext_resource type="Texture2D" uid="uid://cif7donfb8x1x" path="res://Competition!}/Dev Museum/Dev Museum/tileset.png" id="2_m4hul"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dppex"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jrkph"]
+texture = ExtResource("2_m4hul")
+texture_region_size = Vector2i(32, 32)
+1:0/0 = 0
+0:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+1:2/0 = 0
+3:0/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_bsluq"]
+sources/0 = SubResource("TileSetAtlasSource_dppex")
+sources/1 = SubResource("TileSetAtlasSource_jrkph")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+tile_set = SubResource("TileSet_bsluq")
+cell_quadrant_size = 32
+format = 2
+layer_0/tile_data = PackedInt32Array(65535, 196609, 0, 1, 196609, 0, 196607, 196609, 0, 131073, 196609, 0, 65533, 196609, 0, 196605, 196609, 0, 3, 196609, 0, 131075, 196609, 0, 196603, 196609, 0, 65531, 196609, 0, -65538, 196609, 1, -131072, 196609, 1, -262144, 196609, 1, -196610, 196609, 1, -131076, 65537, 1, -65540, 65537, 2, -262148, 65537, 1, -196606, 65537, 1, -131070, 65537, 2, -327678, 65537, 1, -458750, 65537, 1, -393220, 65537, 1, -327682, 196609, 0, -393216, 196609, 0)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_s34pr")]
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+zoom = Vector2(3, 3)

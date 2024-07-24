@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=3 uid="uid://1cd8bck0yrpj"]
+
+[ext_resource type="Texture2D" uid="uid://dj54unrp1c3cp" path="res://Punch Out!/Punch Out!/Ring.png" id="1_uu2vg"]
+[ext_resource type="PackedScene" uid="uid://c77verfguuhex" path="res://Punch Out!/code/Apollo.tscn" id="2_gk4c6"]
+[ext_resource type="Texture2D" uid="uid://b4r0gol4mcavc" path="res://Punch Out!/Punch Out!/HUD.png" id="3_14hn0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_84gua"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_advls"]
+bg_color = Color(0.921569, 0.921569, 0.921569, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_of5rp"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4b3gj"]
+bg_color = Color(0.921569, 0.921569, 0.921569, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kstj3"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4js1b"]
+bg_color = Color(0.921569, 0.827451, 0.12549, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(192, 108)
+zoom = Vector2(3, 3)
+
+[node name="Ring" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(192, 108)
+texture = ExtResource("1_uu2vg")
+
+[node name="Player" parent="." instance=ExtResource("2_gk4c6")]
+position = Vector2(192, 121)
+
+[node name="Bars" type="Node2D" parent="."]
+
+[node name="Player Health" type="ProgressBar" parent="Bars"]
+offset_left = 157.0
+offset_top = 5.0
+offset_right = 245.0
+offset_bottom = 22.0
+scale = Vector2(1, 0.36)
+theme_override_styles/background = SubResource("StyleBoxFlat_84gua")
+theme_override_styles/fill = SubResource("StyleBoxFlat_advls")
+max_value = 80.0
+value = 80.0
+fill_mode = 1
+show_percentage = false
+
+[node name="Enemy Health" type="ProgressBar" parent="Bars"]
+offset_left = 257.0
+offset_top = 5.0
+offset_right = 345.0
+offset_bottom = 22.0
+scale = Vector2(1, 0.36)
+theme_override_styles/background = SubResource("StyleBoxFlat_of5rp")
+theme_override_styles/fill = SubResource("StyleBoxFlat_4b3gj")
+value = 100.0
+rounded = true
+show_percentage = false
+
+[node name="ProgressBar" type="ProgressBar" parent="Bars"]
+offset_left = 93.0
+offset_top = 5.0
+offset_right = 99.0
+offset_bottom = 21.0
+theme_override_styles/background = SubResource("StyleBoxFlat_kstj3")
+theme_override_styles/fill = SubResource("StyleBoxFlat_4js1b")
+show_percentage = false
+
+[node name="Hud" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(192, 16)
+texture = ExtResource("3_14hn0")
