@@ -1,5 +1,16 @@
 extends CharacterBody2D
 
+"""
+
+This script here makes the logic
+for the player to move around the map
+and interact with the environment,
+adjusting it's movement and jump
+speed.
+
+(Might delete)
+
+"""
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
