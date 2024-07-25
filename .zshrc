@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="darkblood"
+# ZSH_THEME="darkblood"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -75,13 +75,18 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/antigen.zsh
 source ~/.antigen/bundles/alien/alien.zsh
+if [ -f $HOME/.cache/waybar-disabled ] ;then 
+    killall waybar
+    pkill waybar
+    ~/dotfiles/waybar/toggle.sh &
+fi
+clear;fastfetch;logo-ls
 
 
 #User config
 
 export ALIEN_THEME="green"
 export ALIEN_PROMPT_SYM=⫸
-antigen theme eendroroy/alien alien
 
 
 # export MANPATH="/usr/local/man:$MANPATH"
