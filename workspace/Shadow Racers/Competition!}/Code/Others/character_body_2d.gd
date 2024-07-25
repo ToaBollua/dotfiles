@@ -66,7 +66,7 @@ func _physics_process(_delta):
 	
 	sprite.flip_h = direction < 0 if direction != 0 else sprite.flip_h
 	
-	while is_on_floor() and Input.is_action_pressed("ui_up"):
+	while is_on_floor() and Input.is_action_pressed("ui_accept"):
 		anim.play ("Ajump")
 		velocity.y -= jump * temp_speed_multiplier
 	

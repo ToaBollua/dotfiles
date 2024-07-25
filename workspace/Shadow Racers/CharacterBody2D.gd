@@ -1,13 +1,7 @@
 extends CharacterBody2D
 
 """
-
 This script handles the player movement and it's animation.
-
-It assumes that the player node has an AnimatedSprite2D child node.
-It detects user input using the gdscript's input method
-(Customizable via Godot's GUI) to move the player and
-animate them.
 
 """
 
@@ -19,11 +13,11 @@ var speed = 100
 
 """
 
-This functon below and it's
-processes are used to check the user's
-input and make the player's character
-react to them as it needs, according to
-already defined physics and speed variables.
+It does the player's
+horizontal movement physics
+Also works as the core of
+the Character's controller.
+
 
 """
 
