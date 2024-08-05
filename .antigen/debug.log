@@ -11385,3 +11385,87 @@ antigen
 [WRN][1722892902.2998328209] -antigen-cache-init return code was 0
 [LOG][1722892902.3000445366] /home/nin/antigen.zsh:1574
 [LOG][1722892902.3000445366] LOADED EXTENSION cache EXT
+[WRN][1722893527.6361050606] /home/nin/antigen.zsh:266
+[WRN][1722893527.6361050606] -antigen-interactive-mode: file:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893527.6370859146] /home/nin/antigen.zsh:1572
+[WRN][1722893527.6370859146] -antigen-lock-init return code was 0
+[LOG][1722893527.6372492313] /home/nin/antigen.zsh:1574
+[LOG][1722893527.6372492313] LOADED EXTENSION lock EXT
+[WRN][1722893527.6469287872] /home/nin/antigen.zsh:1684
+[WRN][1722893527.6469287872] Init parallel extension PARALLEL
+[WRN][1722893527.6500613689] /home/nin/antigen.zsh:266
+[WRN][1722893527.6500613689] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893527.6503903866] /home/nin/antigen.zsh:1572
+[WRN][1722893527.6503903866] -antigen-parallel-init return code was 0
+[LOG][1722893527.6505362988] /home/nin/antigen.zsh:1574
+[LOG][1722893527.6505362988] LOADED EXTENSION parallel EXT
+[WRN][1722893527.6506857872] /home/nin/antigen.zsh:1692
+[WRN][1722893527.6506857872] Exec parallel extension PARALLEL
+[WRN][1722893527.6523907185] /home/nin/antigen.zsh:266
+[WRN][1722893527.6523907185] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893527.6548683643] /home/nin/antigen.zsh:1572
+[WRN][1722893527.6548683643] -antigen-defer-init return code was 0
+[LOG][1722893527.6550798416] /home/nin/antigen.zsh:1574
+[LOG][1722893527.6550798416] LOADED EXTENSION defer EXT
+[WRN][1722893527.6600022316] /home/nin/antigen.zsh:266
+[WRN][1722893527.6600022316] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893527.6606805325] /home/nin/antigen.zsh:1572
+[WRN][1722893527.6606805325] -antigen-cache-init return code was 0
+[LOG][1722893527.6608402729] /home/nin/antigen.zsh:1574
+[LOG][1722893527.6608402729] LOADED EXTENSION cache EXT
+[WRN][1722893541.0564095974] /home/nin/antigen.zsh:266
+[WRN][1722893541.0564095974] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893541.0572764874] /home/nin/antigen.zsh:1572
+[WRN][1722893541.0572764874] -antigen-lock-init return code was 0
+[LOG][1722893541.0574381351] /home/nin/antigen.zsh:1574
+[LOG][1722893541.0574381351] LOADED EXTENSION lock EXT
+[WRN][1722893541.0621037483] /home/nin/antigen.zsh:1684
+[WRN][1722893541.0621037483] Init parallel extension PARALLEL
+[WRN][1722893541.0624451637] /home/nin/antigen.zsh:266
+[WRN][1722893541.0624451637] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893541.0627589226] /home/nin/antigen.zsh:1572
+[WRN][1722893541.0627589226] -antigen-parallel-init return code was 0
+[LOG][1722893541.0629608631] /home/nin/antigen.zsh:1574
+[LOG][1722893541.0629608631] LOADED EXTENSION parallel EXT
+[WRN][1722893541.0631675720] /home/nin/antigen.zsh:1692
+[WRN][1722893541.0631675720] Exec parallel extension PARALLEL
+[WRN][1722893541.0647971630] /home/nin/antigen.zsh:266
+[WRN][1722893541.0647971630] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893541.0651359558] /home/nin/antigen.zsh:1572
+[WRN][1722893541.0651359558] -antigen-defer-init return code was 0
+[LOG][1722893541.0653321743] /home/nin/antigen.zsh:1574
+[LOG][1722893541.0653321743] LOADED EXTENSION defer EXT
+[WRN][1722893541.0686089993] /home/nin/antigen.zsh:266
+[WRN][1722893541.0686089993] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893541.0692451000] /home/nin/antigen.zsh:1572
+[WRN][1722893541.0692451000] -antigen-cache-init return code was 0
+[LOG][1722893541.0694053173] /home/nin/antigen.zsh:1574
+[LOG][1722893541.0694053173] LOADED EXTENSION cache EXT
+[WRN][1722893543.1631963253] /home/nin/antigen.zsh:266
+[WRN][1722893543.1631963253] -antigen-interactive-mode: file:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893543.1637990475] /home/nin/antigen.zsh:1572
+[WRN][1722893543.1637990475] -antigen-lock-init return code was 0
+[LOG][1722893543.1639215946] /home/nin/antigen.zsh:1574
+[LOG][1722893543.1639215946] LOADED EXTENSION lock EXT
+[WRN][1722893543.1677796841] /home/nin/antigen.zsh:1684
+[WRN][1722893543.1677796841] Init parallel extension PARALLEL
+[WRN][1722893543.1680049896] /home/nin/antigen.zsh:266
+[WRN][1722893543.1680049896] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893543.1682178974] /home/nin/antigen.zsh:1572
+[WRN][1722893543.1682178974] -antigen-parallel-init return code was 0
+[LOG][1722893543.1683533192] /home/nin/antigen.zsh:1574
+[LOG][1722893543.1683533192] LOADED EXTENSION parallel EXT
+[WRN][1722893543.1684989929] /home/nin/antigen.zsh:1692
+[WRN][1722893543.1684989929] Exec parallel extension PARALLEL
+[WRN][1722893543.1694324017] /home/nin/antigen.zsh:266
+[WRN][1722893543.1694324017] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893543.1696276665] /home/nin/antigen.zsh:1572
+[WRN][1722893543.1696276665] -antigen-defer-init return code was 0
+[LOG][1722893543.1697432995] /home/nin/antigen.zsh:1574
+[LOG][1722893543.1697432995] LOADED EXTENSION defer EXT
+[WRN][1722893543.1722238064] /home/nin/antigen.zsh:266
+[WRN][1722893543.1722238064] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893543.1729888916] /home/nin/antigen.zsh:1572
+[WRN][1722893543.1729888916] -antigen-cache-init return code was 0
+[LOG][1722893543.1731541157] /home/nin/antigen.zsh:1574
+[LOG][1722893543.1731541157] LOADED EXTENSION cache EXT
