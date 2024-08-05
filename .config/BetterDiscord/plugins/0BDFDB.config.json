@@ -4,7 +4,7 @@
 			"BDFDB": "3.7.6",
 			"FriendNotifications": "2.0.0",
 			"ShowBadgesInChat": "2.0.5",
-			"ShowConnections": "1.2.2"
+			"ShowConnections": "1.2.3"
 		},
 		"choices": {
 			"toastPosition": "right"
@@ -16,7 +16,7 @@
 			"useChromium": false
 		},
 		"hashes": {
-			"0BDFDB.data.json": "4e7a8935448a523f4234a67f60f9b6896ac46195",
+			"0BDFDB.data.json": "fffd3bb73268acfbf71e379c6d5effbf0287122b",
 			"0BDFDB.raw.css": "1ddbcd89c71de4668cbcd0b64a92ada84288b3a5"
 		}
 	}
