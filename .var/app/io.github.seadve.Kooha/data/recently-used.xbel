@@ -43,4 +43,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///run/user/1000/doc/efd508b3/Kooha/Kooha-2024-08-05-17-20-49.mp4" added="2024-08-05T21:33:32.991073Z" modified="2024-08-05T21:33:32.991083Z" visited="2024-08-05T21:33:32.991075Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Kooha" exec="&apos;kooha %u&apos;" modified="2024-08-05T21:33:32.991078Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

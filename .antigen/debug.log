@@ -11469,3 +11469,31 @@ antigen
 [WRN][1722893543.1729888916] -antigen-cache-init return code was 0
 [LOG][1722893543.1731541157] /home/nin/antigen.zsh:1574
 [LOG][1722893543.1731541157] LOADED EXTENSION cache EXT
+[WRN][1722893682.2144992352] /home/nin/antigen.zsh:266
+[WRN][1722893682.2144992352] -antigen-interactive-mode: file:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893682.2155675888] /home/nin/antigen.zsh:1572
+[WRN][1722893682.2155675888] -antigen-lock-init return code was 0
+[LOG][1722893682.2157912254] /home/nin/antigen.zsh:1574
+[LOG][1722893682.2157912254] LOADED EXTENSION lock EXT
+[WRN][1722893682.2224731445] /home/nin/antigen.zsh:1684
+[WRN][1722893682.2224731445] Init parallel extension PARALLEL
+[WRN][1722893682.2229208946] /home/nin/antigen.zsh:266
+[WRN][1722893682.2229208946] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893682.2234327793] /home/nin/antigen.zsh:1572
+[WRN][1722893682.2234327793] -antigen-parallel-init return code was 0
+[LOG][1722893682.2239556313] /home/nin/antigen.zsh:1574
+[LOG][1722893682.2239556313] LOADED EXTENSION parallel EXT
+[WRN][1722893682.2243599892] /home/nin/antigen.zsh:1692
+[WRN][1722893682.2243599892] Exec parallel extension PARALLEL
+[WRN][1722893682.2268927097] /home/nin/antigen.zsh:266
+[WRN][1722893682.2268927097] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893682.2272052765] /home/nin/antigen.zsh:1572
+[WRN][1722893682.2272052765] -antigen-defer-init return code was 0
+[LOG][1722893682.2273833752] /home/nin/antigen.zsh:1574
+[LOG][1722893682.2273833752] LOADED EXTENSION defer EXT
+[WRN][1722893682.2304995060] /home/nin/antigen.zsh:266
+[WRN][1722893682.2304995060] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1722893682.2311060429] /home/nin/antigen.zsh:1572
+[WRN][1722893682.2311060429] -antigen-cache-init return code was 0
+[LOG][1722893682.2312476635] /home/nin/antigen.zsh:1574
+[LOG][1722893682.2312476635] LOADED EXTENSION cache EXT
