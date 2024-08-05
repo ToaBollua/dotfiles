@@ -139,3 +139,4 @@ alias lllg='logo-ls -alD'
 alias logoff='sudo pkill -KILL -u nin'
 alias news='curl getnews.tech'
 alias hownews='echo curl getnews.tech/:help'
+alias Kooha="flatpak run io.github.seadve.Kooha"
